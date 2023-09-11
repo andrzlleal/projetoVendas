@@ -1,0 +1,633 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Loja Etecnology</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="{% static 'assets/img/favicon.png' %}" rel="icon">
+
+  <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="index.html">Etecnology</a></h1>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#pag_Inicial">Página Inicial</a></li>
+          <li><a class="nav-link scrollto" href="#goods">Produtos</a></li>
+          <li><a class="nav-link scrollto" href="#offers">Ofertas do dia</a></li>
+          <li><a class="nav-link scrollto " href="#recommended">Recomendados</a></li>
+          <li><a class="nav-link scrollto" href="#releases">Lançamentos</a></li>
+          <li class="dropdown"><a href="#"><span>Catálogo</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Mouses</a></li>
+              <li class="dropdown"><a href="#"><span>Tópico 1</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Hardware</a></li>
+                  <li><a href="#">Computadores</a></li>
+                  <li><a href="#">Periféricos</a></li>
+                  <li><a href="#">Peças de Computador</a></li>
+                  <li><a href="#">Gamer</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Celular</a></li>
+              <li><a href="#">Tablet</a></li>
+              <li><a href="#">Softwares</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contato</a></li>
+          <li><a class="getstarted scrollto" href="#login">Login</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <section id="#pag_Inicial" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 pt-5 pt-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">Bem vindo(a) ao Etecnology!!</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">Somos uma loja virtual de tecnologia</h2>
+          <div data-aos="fade-up" data-aos-delay="800">
+            <a href="#goods" class="btn-get-started scrollto">Sobre nossos produtos</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
+          <img src="{%static 'assets/img/hero-img.png' %}" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+    <section id="goods" class="goods">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Produtos</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+            <p>
+              A inovação na área da tecnologia é um conceito quase que necessário para que os produtos desenvolvidos pela mesma 
+              possam ser considerados cada vez mais necessários. O processo de desenvolvimento de inovações na área da tecnologia
+              se aplica no conceito de desenvolvimento de novos produtos e também dos produtos para o mesmo possa ser devidamente desenvolvido.
+              Nós temos os melhores produtos para qual estiver à procura!!
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Etecnology trabalha com produdos da mais alta qualidade</li>
+              <li><i class="ri-check-double-line"></i> Diferentes tipos de produtos disponíveis a sua necessidade</li>
+            </ul>
+          </div>
+            <a href="#" class="btn-learn-more">Ler mais</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="counts" class="counts">
+      <div class="container">
+
+        <div class="row">
+          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
+            <img src="{% static 'assets/img/portfolio/ccc.jpg' %}" alt="" class="img-fluid">
+          </div>
+
+          <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
+            <div class="content d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-emoji-smile"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="98" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Avaliações</strong> Clientes satisfeitos com seus pedidos, você pode confirmar verificando nas avaliações</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-journal-richtext"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Produtos</strong> Itens da mais alta qualidade e custo benefício</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-clock"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Suporte</strong>Caso tenha alguma dúvida, entre em contato com o suporte, tempo máximo de espera 2h</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-award"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Sofisticação</strong> Itens que dão o que falar, temos aqui também, confira no nosso departamento</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="offers" class="offers">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Ofertas do dia</h2>
+          <p>Aqui estão disponíveis as ofertas do dia</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4 class="title"><a href="">Fone Bluetooth Comfort GO I2GO</a></h4>
+              <p class="description">O Headphone Bluetooth Comfort Go une alta qualidade, resistência, acabamento premium e o som HD estéreo com graves poderosos da Tecnologia BASS+ com a conexão Bluetooth 5.0.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">Teclado Mecânico</a></h4>
+              <p class="description">Logitech K835 TKL, Teclado Mecânico com fio com Estrutura de Alumínio e Switch Red Linear, Preto</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">Roteador</a></h4>
+              <p class="description">Roteador TP Link Mesh Gigabit Wi-Fi 5GHz Archer C6</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="">Headset Gamer</a></h4>
+              <p class="description">Headset Gamer JBL Quantum ONE Over Ear Preto - JBLQUANTUMONEBLK</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="more-offers" class="more-services">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card" style='background-image: url("assets/img/more-services-1.jpg");' data-aos="fade-up" data-aos-delay="100">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Câmera</a></h5>
+                <p class="card-text">Câmera Ip De Segurança Wifi Infravermelho Externa Prova D'água Yoosee 360° Graus Full HD 1080p Visão Noturna Sensor E Controle D</p>
+                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i>Ler mais</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="card" style='background-image: url("assets/img/more-services-2.jpg");' data-aos="fade-up" data-aos-delay="200">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Organizador</a></h5>
+                <p class="card-text">FYY organizador eletrônico, bolsa organizadora de cabo de viagem bolsa de acessórios eletrônicos estojo de transporte portátil</p>
+                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i>Ler mais</a></div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Catálogo</h2>
+          <p>Precisa de algo específico? Confira no nosso departamento de produtos!</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-3 col-md-4">
+            <div class="icon-box">
+              <i class="ri-store-line" style="color: #0e92ba;"></i>
+              <h3><a href="">Placas de vídeo</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="ri-bar-chart-box-line" style="color: #0e92ba;"></i>
+              <h3><a href="">Memória</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="ri-calendar-todo-line" style="color: #0e92ba;"></i>
+              <h3><a href="">Fontes de alimentação</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <i class="ri-paint-brush-line" style="color: #0e92ba;"></i>
+              <h3><a href="">Placas-mãe</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-database-2-line" style="color: #0e92ba;"></i>
+              <h3><a href="">Games</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-gradienter-line" style="color: #0e92ba;"></i>
+              <h3><a href="">Fones de ouvido</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-file-list-3-line" style="color: #0e92ba;"></i>
+              <h3><a href="">Celulares</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-price-tag-2-line" style="color: #0e92ba;"></i>
+              <h3><a href="">Componentes</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-anchor-line" style="color: #0e92ba;"></i>
+              <h3><a href="">Acessórios</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-disc-line" style="color: #0e92ba;"></i>
+              <h3><a href="">SSD's</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-base-station-line" style="color: #0e92ba;"></i>
+              <h3><a href="">Tablet</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-fingerprint-line" style="color: #0e92ba;"></i>
+              <h3><a href="">Carregador</a></h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    
+    </section>
+
+    <section id="recommended" class="recommended">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Recomendados</h2>
+          <p>Aqui estão alguns produtos recomendados</p>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="{% static 'assets/img/portfolio/foto1.png' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Monitor </h4>
+                <p>Monitor LCD 242V8A/57 | Philips</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'assets/img/portfolio/foto1.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Monitor 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="{% static 'assets/img/portfolio/foto2.png' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Monitor</h4>
+                <p>Gaming Monitor Full HD gaming monitor 24M1N3200VL/27 | Evnia</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'assets/img/portfolio/foto2.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Monitor 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="{% static 'assets/img/portfolio/foto6.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Monitor</h4>
+                <p>Monitor Dell 21.4 LED Full HD</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'assets/img/portfolio/foto6.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Monitor 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="{% static 'assets/img/portfolio/gabinete3.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Gabinete</h4>
+                <p>Gabinete Gamer Pcyes Java Verde...</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'assets/img/portfolio/gabinete3.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Gabinete 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="{% static 'assets/img/portfolio/gabinete4.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Gabinete</h4>
+                <p>Gabinete Office Pcfort E183 com fonte automática 200W, USB 3.0, Preto...</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'assets/img/portfolio/gabinete4.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Gabinete 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="{% static 'assets/img/portfolio/gabinete5.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Gabinete</h4>
+                <p>Gabinete Gamer Pcfort Lines Mid Tower RGB</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'assets/img/portfolio/gabinete5.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Gabinete 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="{% static 'assets/img/portfolio/placa1.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Placa de vídeo</h4>
+                <p>Placa de Vídeo Gigabyte - GeForce GTX 1660 Super OC, 6GB GDDR6</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'assets/img/portfolio/placa1,jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Placa 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="{% static 'assets/img/portfolio/placa2.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Placa de vídeo</h4>
+                <p>Placa de Vídeo NVIDIA GeForce GTX 1650 D6 Ghost 4GB GDDR6 PCI-E 3.0 NE6165001BG1-1175D Gainward</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'assets/img/portfolio/placa.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Placa 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="{% static 'assets/img/portfolio/placa6.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Placa de vídeo</h4>
+                <p>Placa de Vídeo Pcyes NVIDIA GeForce GTX 1050 Ti, 4 GB GDDR5, 128Bits, Dual Fan</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'assets/img/portfolio/placa6.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Placa 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="releases" class="releases">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Lançamentos</h2>
+          <p>Aqui estão alguns lançamentos, venha conferir!!</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box" data-aos="zoom-in-right" data-aos-delay="200">
+              <h3>Teclado</h3>
+              <h4><sup>$</sup>279,99</h4>
+              <ul>
+                <li>WB Teclado</li>
+                <li>Com Trackpad</li>
+                <li>Para Tablet e iPad</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Comprar agora</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+            <div class="box recommended" data-aos="zoom-in" data-aos-delay="100">
+              <h3>Fone</h3>
+              <h4><sup>$</sup>89,99</h4>
+              <ul>
+                <li>Headphone Fone de Ouvido</li>
+                <li>Havit HV-H2232d, Gamer</li>
+                <li>Iluminação RGB, com Microfone</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Comprar agora</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in-left" data-aos-delay="200">
+              <h3>Suporte</h3>
+              <h4><sup>$</sup>69,99</h4>
+              <ul>
+                <li>Suporte Uptable</li>
+                <li>White OCTOO</li>
+                <li>Branco</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Comprar agora</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Contato</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="contact-about">
+              <h3>Etecnology</h3>
+              <p>Nós da Etecnology trabalhamos para que nossos clientes tenham um ótimo atendimento, se precisar de ajuda pode nos contatar! Nos sigam nas nossas redes sociais para saber das novidades</p>
+              <div class="social-links">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="info">
+              <div>
+                <i class="ri-map-pin-line"></i>
+                <p>endereço<br>endereço, numero</p>
+              </div>
+
+              <div>
+                <i class="ri-mail-send-line"></i>
+                <p>email@example.com</p>
+              </div>
+
+              <div>
+                <i class="ri-phone-line"></i>
+                <p>+55 (xx)xxxxx-xxxx</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome" required>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Seu email" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Sua dúvida" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Enviar</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Envie sua dúvida para nós. Obrigado!</div>
+              </div>
+              <div class="text-center"><button type="submit">Enviar mensagem</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6 text-lg-left text-center">
+          <div class="copyright">
+            &copy; Copyright <strong>Etecnology</strong>. All Rights Reserved
+          </div>
+
+        </div>
+        <div class="col-lg-6">
+          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+            <a href="#intro" class="scrollto">Página Inicial</a>
+            <a href="#about" class="scrollto">Mais</a>
+            <a href="#">Politica de privacidade</a>
+            <a href="#">Termos de usos</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <script src="{% static 'assets/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+
+</html>
